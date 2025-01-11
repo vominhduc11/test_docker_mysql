@@ -10,7 +10,7 @@ services:
     depends_on:
       - mysql
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://ugc3rkqyobaldc84:7u7muDpr7Dfxf4VYyFd2@bhaxcrjvl1dwucdovvw1-mysql.services.clever-cloud.com:3306/bhaxcrjvl1dwucdovvw1
+      SPRING_DATASOURCE_URL: jdbc:mysql://bhaxcrjvl1dwucdovvw1-mysql.services.clever-cloud.com:3306/bhaxcrjvl1dwucdovvw1
       SPRING_DATASOURCE_USERNAME: ugc3rkqyobaldc84
       SPRING_DATASOURCE_PASSWORD: 7u7muDpr7Dfxf4VYyFd2
 
