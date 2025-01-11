@@ -10,9 +10,9 @@ services:
     depends_on:
       - mysql
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/springsecurity_jwt
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: 123456
+      SPRING_DATASOURCE_URL: jdbc:mysql://ugc3rkqyobaldc84:7u7muDpr7Dfxf4VYyFd2@bhaxcrjvl1dwucdovvw1-mysql.services.clever-cloud.com:3306/bhaxcrjvl1dwucdovvw1
+      SPRING_DATASOURCE_USERNAME: ugc3rkqyobaldc84
+      SPRING_DATASOURCE_PASSWORD: 7u7muDpr7Dfxf4VYyFd2
 
   mysql:
     image: mysql:8.0
@@ -20,8 +20,8 @@ services:
     ports:
       - "3307:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_DATABASE: springsecurity_jwt
+      MYSQL_ROOT_PASSWORD: 7u7muDpr7Dfxf4VYyFd2
+      MYSQL_DATABASE: bhaxcrjvl1dwucdovvw1
     volumes:
       - mysql_data:/var/lib/mysql
 
